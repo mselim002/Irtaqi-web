@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "siteName": "Irtaqi",
+    "tagline": "Rise through your daily worship",
+    "home": "Irtaqi — Rise through your daily worship",
+    "features": "Features — Irtaqi",
+    "about": "About — Irtaqi",
+    "download": "Download — Irtaqi",
+    "contact": "Contact — Irtaqi",
+    "privacy": "Privacy Policy — Irtaqi"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "download": "Download",
+    "contact": "Contact",
+    "menuToggle": "Menu",
+    "langToggle": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Islamic habit tracking",
+    "title": "Rise through your daily worship",
+    "titleAr": "ارتقِ",
+    "verse": "“So race toward all that is good.”",
+    "verseRef": "Qur'an 2:148",
+    "subtitle": "Build the habits of a lifetime — 63 acts of worship, 12 spiritual levels, and a companion that grows with you.",
+    "ctaPrimary": "Download the app",
+    "ctaSecondary": "Explore features",
+    "stats": {
+      "habits": "Islamic habits",
+      "levels": "Spiritual levels",
+      "badges": "Achievement badges",
+      "languages": "Languages"
+    }
+  },
+  "homePillars": {
+    "title": "Built around three pillars",
+    "subtitle": "Every feature in Irtaqi serves one of three goals — nearness to Allah, consistency, and community.",
+    "taqwa": {
+      "title": "Taqwa",
+      "body": "God-consciousness through the five daily prayers, morning and evening adhkar, and the sunnah rawatib."
+    },
+    "ibadah": {
+      "title": "Ibadah",
+      "body": "A structured ward for the Qur'an, fasting, charity, and the weekly, monthly, and yearly acts of devotion."
+    },
+    "ihsan": {
+      "title": "Ihsan",
+      "body": "Self-accountability, character, and the inner stations of the heart — from repentance to certainty."
+    }
+  },
+  "homeCta": {
+    "title": "Your journey to Ihsan starts with one habit.",
+    "body": "Pick the acts of worship you want to commit to. Track them daily. Rise, level by level.",
+    "button": "Get started"
+  },
+  "features": {
+    "title": "Everything you need to grow",
+    "subtitle": "Irtaqi is designed by Muslims, for Muslims — rooted in the Qur'an and the Sunnah.",
+    "items": {
+      "habits": {
+        "title": "63 Islamic habits",
+        "body": "A curated library spanning prayers, adhkar, Qur'an, ethics, and the weekly, monthly, and yearly acts — each tagged by type (fard, sunnah, mustahab) and weighted by points."
+      },
+      "levels": {
+        "title": "12 spiritual stations",
+        "body": "Progress through twelve maqamat — from Tawbah (Repentance) to Yaqin (Certainty) — each anchored in a verse from the Qur'an."
+      },
+      "badges": {
+        "title": "18 achievement badges",
+        "body": "Earn recognition across three pillars — Taqwa, Ibadah, and Ihsan — for milestones like 40 consecutive Fajrs or completing a khatm of the Qur'an."
+      },
+      "streaks": {
+        "title": "Streaks and stats",
+        "body": "Daily, weekly, monthly, and yearly views. Track your current streak, your longest streak, and your total points over time."
+      },
+      "groups": {
+        "title": "Groups and leaderboards",
+        "body": "Build a small circle of family or friends. Encourage each other, compare progress on a private leaderboard, and race toward the good together."
+      },
+      "madhab": {
+        "title": "Madhab-aware",
+        "body": "Choose your madhab — Hanafi, Maliki, Shafi'i, or Hanbali — and Irtaqi tailors prayer times, sunnah counts, and juristic nuances accordingly."
+      },
+      "bilingual": {
+        "title": "Arabic and English",
+        "body": "Fully bilingual with native RTL support. Arabic scripture is rendered in Amiri; the UI uses Cairo — chosen for clarity at every size."
+      },
+      "offline": {
+        "title": "Private and offline-first",
+        "body": "Your data lives on your device. No ads, no tracking, no selling your worship to anyone. Optional sync keeps it simple."
+      }
+    }
+  },
+  "about": {
+    "title": "About Irtaqi",
+    "lede": "Irtaqi (Arabic: ارتقِ — “rise”) is an Islamic habit tracker built around a simple idea: consistency is the shortest path to nearness.",
+    "mission": {
+      "title": "Our mission",
+      "body": "To help Muslims build — and keep — the daily habits that shape a life of worship. Not a gamified novelty, but a serious companion rooted in the Qur'an, the Sunnah, and the classical tradition of self-accountability (muhasaba)."
+    },
+    "principles": {
+      "title": "Principles",
+      "one": {
+        "title": "Rooted in tradition",
+        "body": "Every habit, every badge, every level is drawn from Qur'anic verses and authentic hadith — not invented for engagement."
+      },
+      "two": {
+        "title": "Small, daily, consistent",
+        "body": "“The most beloved deeds to Allah are those done consistently, even if small.” — our product philosophy, literally."
+      },
+      "three": {
+        "title": "Privacy by default",
+        "body": "Your ibadah is between you and your Lord. We don't need to see it, sell it, or mine it."
+      }
+    },
+    "verse": {
+      "ar": "﴿ وَبَشِّرِ الصَّابِرِينَ ﴾",
+      "en": "“And give glad tidings to the patient.”",
+      "ref": "Qur'an 2:155"
+    }
+  },
+  "download": {
+    "title": "Download Irtaqi",
+    "subtitle": "Available on iOS and Android. Arabic and English.",
+    "ios": "App Store",
+    "iosSub": "Download on",
+    "android": "Google Play",
+    "androidSub": "Get it on",
+    "requirements": "Requires iOS 15+ or Android 8+.",
+    "launch": {
+      "title": "Not out yet",
+      "body": "Irtaqi is in development. Leave your email and we'll let you know the moment it's live — nothing else.",
+      "placeholder": "your@email.com",
+      "button": "Notify me",
+      "success": "Thanks — we'll be in touch.",
+      "error": "Please enter a valid email."
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Questions, feedback, a hadith we missed — send it our way.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message…",
+      "submit": "Send message",
+      "success": "Thanks — your message has been received.",
+      "error": "Please fill in all fields with a valid email."
+    },
+    "direct": {
+      "title": "Prefer email?",
+      "body": "Write to us at",
+      "email": "hello@irtaqi.app"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: April 2026",
+    "intro": "Irtaqi is designed to respect your privacy. This policy explains what we collect, what we don't, and what we'll never do.",
+    "sections": {
+      "collect": {
+        "title": "What we collect",
+        "body": "Only what's needed to make the app work: your email and password (for your account), the habits you choose to track, and your completion logs. That's it."
+      },
+      "local": {
+        "title": "Your data is yours",
+        "body": "By default, your tracking data is stored on your device. Optional cloud sync encrypts and stores it on our servers so you can use Irtaqi across devices."
+      },
+      "never": {
+        "title": "What we'll never do",
+        "body": "We will never sell your data, share it with advertisers, or use your worship history to target you with ads. Irtaqi has no third-party trackers."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "You can export your data or permanently delete your account at any time from within the app. No forms, no delays."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about privacy? Write to privacy@irtaqi.app."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Rise through your daily worship.",
+    "sections": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "features": "Features",
+      "download": "Download",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "rights": "© 2026 Irtaqi. All rights reserved.",
+    "made": "Made with sincerity for the ummah."
+  }
+}
