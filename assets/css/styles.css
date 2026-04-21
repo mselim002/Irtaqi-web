@@ -943,6 +943,243 @@ html[lang="en"] .hero-verse {
 }
 
 /* ============================================================================
+   Alternating section background
+   ============================================================================ */
+.section-alt {
+  background: var(--bg-2);
+  border-block: 1px solid var(--border);
+}
+
+/* ============================================================================
+   Levels timeline (home)
+   ============================================================================ */
+.levels-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  position: relative;
+}
+
+.levels-timeline::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  inset-inline-start: 4%;
+  inset-inline-end: 4%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    #94a3b8 0% 25%,
+    #60a5fa 25% 50%,
+    #4ade80 50% 75%,
+    #c9a84c 75% 100%
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.level-group {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 40px 22px 24px;
+  position: relative;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.level-group:hover {
+  border-color: var(--lg-color, var(--gold));
+  transform: translateY(-2px);
+}
+
+.level-group-dot {
+  position: absolute;
+  top: 10px;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--lg-color, var(--gold));
+  box-shadow: 0 0 0 4px var(--bg), 0 0 24px var(--lg-color, var(--gold));
+}
+
+html[dir="rtl"] .level-group-dot {
+  transform: translateX(50%);
+}
+
+.level-group-title {
+  font-size: 18px;
+  color: var(--lg-color, var(--gold-2));
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.level-group-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  padding: 0;
+}
+
+.level-group-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.level-num {
+  font-family: var(--font-ar);
+  font-weight: 700;
+  color: var(--lg-color, var(--gold));
+  min-width: 28px;
+  text-align: center;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.level-name {
+  font-family: var(--font-ar);
+  color: var(--cream);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .levels-timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .levels-timeline::before { display: none; }
+}
+
+@media (max-width: 520px) {
+  .levels-timeline {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================================
+   Badge pillars (home)
+   ============================================================================ */
+.badge-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.badge-pillar {
+  text-align: center;
+  padding: 40px 28px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.badge-pillar:hover {
+  background: var(--card-hover);
+  border-color: var(--border-gold);
+  transform: translateY(-2px);
+}
+
+.badge-pillar-icon {
+  font-size: 44px;
+  margin-bottom: 16px;
+  line-height: 1;
+}
+
+.badge-pillar h3 {
+  font-size: 20px;
+  color: var(--gold-2);
+  margin-bottom: 12px;
+}
+
+.badge-pillar-count {
+  color: var(--cream-dim);
+  font-size: 15px;
+}
+
+.badge-pillar-num {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--gold-2);
+  font-variant-numeric: tabular-nums;
+  display: inline-block;
+  margin-inline-end: 6px;
+}
+
+@media (max-width: 720px) {
+  .badge-pillars { grid-template-columns: 1fr; }
+}
+
+/* ============================================================================
+   Free-forever band
+   ============================================================================ */
+.free-band {
+  padding: 64px 40px;
+  text-align: center;
+  background:
+    radial-gradient(800px 300px at 50% 0, rgba(201, 168, 76, 0.15), transparent),
+    linear-gradient(180deg, rgba(201, 168, 76, 0.06), rgba(201, 168, 76, 0.02));
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.free-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(400px 200px at 15% 100%, rgba(61, 214, 200, 0.08), transparent),
+    radial-gradient(400px 200px at 85% 100%, rgba(167, 139, 250, 0.06), transparent);
+  pointer-events: none;
+}
+
+.free-band > * { position: relative; }
+
+.free-band-verse {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3.5vw, 34px);
+  color: var(--gold-3);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.free-band-verse-en {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--cream-dim);
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.free-band-verse-ref {
+  font-size: 12px;
+  color: var(--cream-dim-2);
+  margin-bottom: 30px;
+}
+
+.free-band h2 {
+  font-size: clamp(26px, 4vw, 36px);
+  color: var(--gold-2);
+  margin-bottom: 18px;
+}
+
+.free-band-body {
+  color: var(--cream);
+  font-size: 17px;
+  line-height: 1.75;
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+/* ============================================================================
    RTL adjustments
    ============================================================================ */
 html[dir="rtl"] .hero-title,

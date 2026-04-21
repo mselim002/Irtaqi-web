@@ -50,6 +50,39 @@
       "body": "Self-accountability, character, and the inner stations of the heart — from repentance to certainty."
     }
   },
+  "homeProblem": {
+    "title": "Why is consistency so hard?",
+    "body": "Without structure and reminders, even sincere intentions drift. Most of us want to hold onto our daily worship, but life moves fast and the habit slips before we notice."
+  },
+  "homeSolution": {
+    "title": "Irtaqi — tracking meets faith-based motivation",
+    "body": "Track your daily worship. See your streak. Rise through the twelve classical stations. Earn recognition anchored in verses and hadith — not novelty, but nearness."
+  },
+  "homeLevels": {
+    "title": "12 stations — from Repentance to Certainty",
+    "body": "Inspired by the classical maqamat literature. Each station is anchored in a Qur'anic verse. Progress is earned through daily consistency.",
+    "groups": {
+      "beginning": "The Beginning",
+      "steadfast": "Steadfastness",
+      "elevation": "Elevation",
+      "ihsan": "Excellence (Ihsan)"
+    }
+  },
+  "homeBadges": {
+    "title": "18 badges — across three pillars",
+    "body": "Recognition for milestones on the path of Taqwa, Ibadah, and Ihsan — from forty consecutive Fajrs to completing a full khatm of the Qur'an.",
+    "taqwa": "Taqwa",
+    "ibadah": "Ibadah",
+    "ihsan": "Ihsan",
+    "count": "badges"
+  },
+  "homeFree": {
+    "title": "Free forever. No ads. Volunteer project.",
+    "body": "Irtaqi is built by Muslims, for Muslims, funded only by optional donations. No ads. No subscriptions. No selling your worship data. Every feature is free for everyone, for as long as the project exists.",
+    "verseAr": "﴿ وَأَنفِقُوا مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ﴾",
+    "verseEn": "“Spend from that which He has made you successors.”",
+    "verseRef": "Qur'an 57:7"
+  },
   "homeCta": {
     "title": "Your journey to Ihsan starts with one habit.",
     "body": "Pick the acts of worship you want to commit to. Track them daily. Rise, level by level.",
@@ -98,7 +131,7 @@
     "lede": "Irtaqi (Arabic: ارتقِ — “rise”) is an Islamic habit tracker built around a simple idea: consistency is the shortest path to nearness.",
     "mission": {
       "title": "Our mission",
-      "body": "To help Muslims build — and keep — the daily habits that shape a life of worship. Not a gamified novelty, but a serious companion rooted in the Qur'an, the Sunnah, and the classical tradition of self-accountability (muhasaba)."
+      "body": "To help Muslims build — and keep — the daily habits that shape a life of worship. A serious companion rooted in the Qur'an, the Sunnah, and the classical tradition of self-accountability (muhasaba)."
     },
     "principles": {
       "title": "Principles",
@@ -157,7 +190,7 @@
     "direct": {
       "title": "Prefer email?",
       "body": "Write to us at",
-      "email": "hello@irtaqi.app"
+      "email": "hello@irtaqi.life"
     }
   },
   "privacy": {
@@ -183,7 +216,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": "Questions about privacy? Write to privacy@irtaqi.app."
+        "body": "Questions about privacy? Write to privacy@irtaqi.life."
       }
     }
   },
