@@ -1,0 +1,30 @@
+{
+  "name": "ارتقِ",
+  "short_name": "ارتقِ",
+  "description": "تطبيق إسلامي لتتبع العبادات والارتقاء الإيماني",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050A07",
+  "theme_color": "#050A07",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/brand/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/brand/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/brand/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
