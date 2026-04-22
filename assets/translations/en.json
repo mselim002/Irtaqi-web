@@ -121,8 +121,8 @@
         "body": "Fully bilingual with native RTL support. Arabic scripture is rendered in Amiri; the UI uses Cairo — chosen for clarity at every size."
       },
       "offline": {
-        "title": "Private and offline-first",
-        "body": "Your data lives on your device. No ads, no tracking, no selling your worship to anyone. Optional sync keeps it simple."
+        "title": "Private and encrypted",
+        "body": "Your data lives in your account and syncs securely over HTTPS. A local cache keeps the app fast and usable offline. No ads, no tracking, no selling your worship to anyone."
       }
     }
   },
@@ -195,24 +195,24 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Last updated: April 2026",
+    "updated": "Last updated: April 22, 2026",
     "intro": "Irtaqi is designed to respect your privacy. This policy explains what we collect, what we don't, and what we'll never do.",
     "sections": {
       "collect": {
         "title": "What we collect",
-        "body": "Only what's needed to make the app work: your email and password (for your account), the habits you choose to track, and your completion logs. That's it."
+        "body": "Only what's needed to make the app work: your email and password (hashed with bcrypt), the habits you choose to track and your completion logs, groups you create or join, and optional profile fields (name, avatar, madhhab, location for prayer times). If you enable prayer reminders, the app requests prayer times from the Aladhan service using your coordinates only — no personal identifier is sent."
       },
       "local": {
-        "title": "Your data is yours",
-        "body": "By default, your tracking data is stored on your device. Optional cloud sync encrypts and stores it on our servers so you can use Irtaqi across devices."
+        "title": "Where your data lives",
+        "body": "Your main data is stored on our servers so it works across your devices and survives a lost phone. A local cache on your device keeps screens fast and usable offline. All traffic is over HTTPS."
       },
       "never": {
         "title": "What we'll never do",
-        "body": "We will never sell your data, share it with advertisers, or use your worship history to target you with ads. Irtaqi has no third-party trackers."
+        "body": "We will never sell your data, share it with advertisers, or use your worship history to target you with ads. Irtaqi uses no third-party trackers. Crash reports (Sentry) strip authentication tokens and request bodies before leaving the device."
       },
       "rights": {
         "title": "Your rights",
-        "body": "You can export your data or permanently delete your account at any time from within the app. No forms, no delays."
+        "body": "You can permanently delete your account from inside the app at any time (Settings → Delete account permanently). Deletion wipes your data from our servers immediately: habit logs, group memberships, points, and badges. No forms, no delays, and no recovery after deletion."
       },
       "contact": {
         "title": "Contact",
