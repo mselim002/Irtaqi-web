@@ -1224,3 +1224,48 @@ html[dir="rtl"] .inline-form {
   overflow: hidden; clip: rect(0,0,0,0);
   white-space: nowrap; border: 0;
 }
+
+/* ============================================================================
+   App preview — real device screenshot beside copy
+   ============================================================================ */
+.app-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.app-preview-copy .section-title {
+  margin-bottom: 20px;
+}
+
+.app-preview-device {
+  display: flex;
+  justify-content: center;
+}
+
+.app-preview-device img {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 36px;
+  border: 6px solid #0a0f0c;
+  box-shadow:
+    0 0 0 1px var(--border-gold),
+    0 24px 60px rgba(0, 0, 0, 0.6),
+    0 8px 32px rgba(201, 168, 76, 0.12);
+}
+
+@media (max-width: 768px) {
+  .app-preview-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .app-preview-device img {
+    width: 240px;
+  }
+}
