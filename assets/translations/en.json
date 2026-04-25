@@ -52,18 +52,18 @@
   },
   "homePreview": {
     "title": "A real companion, not a mockup.",
-    "body": "Native right-to-left Arabic typography. Your current station sits in your profile, and every worship entry feeds your points and streak. Shown here: the Arabic Settings screen — Arabic-first by default.",
-    "imageAlt": "Irtaqi Settings screen in Arabic, showing the Tawbah station"
+    "body": "Native right-to-left Arabic typography. Your station, your streak, and today's points — all in one place, with the Friday ×1.5 multiplier visible at the top. This is your home screen, from a working app.",
+    "imageAlt": "Irtaqi home screen in Arabic, showing the Tawbah station and the Friday multiplier"
   },
   "homeTour": {
     "title": "A short tour of the app",
     "subtitle": "Every screen here is from a working app — no mockups.",
-    "homeAlt": "Irtaqi home screen with the Friday multiplier active",
-    "homeCaption": "Home — your station, today's points, and today's worship in one place. The Friday ×1.5 multiplier sits at the top.",
-    "habitsAlt": "Irtaqi daily worship list — fard prayers and sunan",
-    "habitsCaption": "Daily worship — the five prayers and their sunan and adhkar, tagged Fard or Sunnah Muakkadah.",
+    "dailyAlt": "Irtaqi daily worship list — fard prayers and sunan",
+    "dailyCaption": "Daily worship — the five prayers and their sunan and adhkar, tagged Fard or Sunnah Muakkadah.",
     "weeklyAlt": "Irtaqi weekly worship view — Jumu'ah, Ghusl, Surat al-Kahf",
     "weeklyCaption": "Weekly worship — Jumu'ah prayer, ghusl, Surat al-Kahf, and the encouraged sending of salutations on the Prophet ﷺ.",
+    "monthlyAlt": "Irtaqi monthly worship view — Ayyam Beed fasting, monthly sadaqah, khatm of the Qur'an",
+    "monthlyCaption": "Monthly worship — completing a khatm of the Qur'an, monthly sadaqah, fasting the white days, visiting kin.",
     "groupsAlt": "Irtaqi groups screen with two groups and a leaderboard",
     "groupsCaption": "Small groups — family or friends, with a private leaderboard and an invite code."
   },
