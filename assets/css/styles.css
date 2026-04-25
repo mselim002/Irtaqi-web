@@ -1269,3 +1269,73 @@ html[dir="rtl"] .inline-form {
     width: 240px;
   }
 }
+
+/* ============================================================================
+   App gallery — row of multiple device screenshots (used on home tour, features,
+   download). Reuses .app-preview-device img styling for the device frame look.
+   ============================================================================ */
+.app-gallery {
+  display: grid;
+  gap: 32px;
+  align-items: end;
+  justify-items: center;
+  margin-inline: auto;
+  margin-top: 48px;
+}
+
+.app-gallery--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 920px;
+}
+
+.app-gallery--four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 1100px;
+}
+
+.app-gallery figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 14px;
+}
+
+.app-gallery figure img {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  border-radius: 32px;
+  border: 6px solid #0a0f0c;
+  box-shadow:
+    0 0 0 1px var(--border-gold),
+    0 20px 50px rgba(0, 0, 0, 0.55),
+    0 6px 24px rgba(201, 168, 76, 0.10);
+}
+
+.app-gallery figcaption {
+  font-size: 14px;
+  color: var(--ink-soft, #e8c97a);
+  text-align: center;
+  opacity: 0.85;
+  max-width: 240px;
+}
+
+@media (max-width: 900px) {
+  .app-gallery--four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-gallery--three,
+  .app-gallery--four {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
+  .app-gallery figure img {
+    max-width: 260px;
+  }
+}
