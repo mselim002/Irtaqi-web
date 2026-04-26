@@ -65,7 +65,7 @@
     "monthlyAlt": "Irtaqi monthly worship view — Ayyam Beed fasting, monthly sadaqah, khatm of the Qur'an",
     "monthlyCaption": "Monthly worship — completing a khatm of the Qur'an, monthly sadaqah, fasting the white days, visiting kin.",
     "groupsAlt": "Irtaqi groups screen with two groups and a leaderboard",
-    "groupsCaption": "Small groups — family or friends, with a private leaderboard and an invite code."
+    "groupsCaption": "Small groups — private leaderboard, group challenges, and an invite code to bring others in."
   },
   "homeProblem": {
     "title": "Why is consistency so hard?",
@@ -150,8 +150,8 @@
         "body": "Daily, weekly, monthly, and yearly views. Track your current streak, your longest streak, and your total points over time."
       },
       "groups": {
-        "title": "Groups and leaderboards",
-        "body": "Build a small circle of family or friends. Encourage each other, compare progress on a private leaderboard, and race toward the good together."
+        "title": "Groups and challenges",
+        "body": "Build a small circle of family or friends. Compete on a private leaderboard — and let the group admin launch a shared challenge: pick the worship goals, set a deadline, and watch a live per-member progress board. "Race toward all that is good.""
       },
       "madhab": {
         "title": "Madhab-aware",
@@ -164,6 +164,14 @@
       "offline": {
         "title": "Private and encrypted",
         "body": "Your data lives in your account and syncs securely over HTTPS. A local cache keeps the app fast and usable offline. No ads, no tracking, no selling your worship to anyone."
+      },
+      "fiqhDetails": {
+        "title": "Fiqh detail on every habit",
+        "body": "Tap ⓘ on any habit to see the rakat count, what to recite, its virtue from Qur'an and hadith, and madhhab variants — all in one place, sourced, not invented."
+      },
+      "challengeFeature": {
+        "title": "Group challenges",
+        "body": "The group admin picks worship goals and sets a deadline. Members compete to complete them — with a live per-member progress leaderboard. "And in that let those who compete, compete." (83:26)"
       }
     }
   },
