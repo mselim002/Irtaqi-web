@@ -59,6 +59,9 @@ function applyDict(dict) {
       document.title = value;
     }
   }
+
+  // Reveal body now that correct language is applied — prevents flash of English fallback
+  document.body.classList.add("i18n-ready");
 }
 
 export async function setLang(lang) {

@@ -3,6 +3,10 @@
    Dark / gold palette mirroring the mobile app theme.
    ============================================================================= */
 
+/* Hide body until i18n translations are applied — prevents flash of English fallback text */
+body { visibility: hidden; }
+body.i18n-ready { visibility: visible; }
+
 :root {
   --bg: #070d09;
   --bg-2: #0c1610;
