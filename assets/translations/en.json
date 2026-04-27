@@ -31,7 +31,7 @@
       "habits": "Islamic habits",
       "levels": "Spiritual levels",
       "badges": "Achievement badges",
-      "languages": "Languages"
+      "features": "Features"
     }
   },
   "homePillars": {
@@ -172,6 +172,30 @@
       "challengeFeature": {
         "title": "Group challenges",
         "body": "The group admin picks worship goals and sets a deadline. Members compete to complete them — with a live per-member progress leaderboard. "And in that let those who compete, compete." (83:26)"
+      },
+      "quranReader": {
+        "title": "Built-in Qur'an reader",
+        "body": "Browse the full Mushaf inside the app in Amiri script. Jump directly to any surah, search by name, and navigate pages by swipe or button."
+      },
+      "qibla": {
+        "title": "Qibla compass",
+        "body": "Find the direction of Makkah with a live compass in Settings. Uses the device sensor in real time — shows the bearing in degrees and the great-circle distance to the Masjid al-Haram."
+      },
+      "dhikrCounter": {
+        "title": "Dhikr counter",
+        "body": "A built-in tap counter for repetitive worship — Istighfar 100×, Salawat, Tasbeeh. Advances automatically through the Tasbeeh cycle (SubhanAllah 33, Alhamdulillah 33, Allahu Akbar 34) and logs the habit on completion."
+      },
+      "dailyReminder": {
+        "title": "Daily Qur'anic reminder",
+        "body": "A rotating ayah or hadith at the top of the home screen every day — 32 reminders drawn from the Qur'an and authentic Sunnah, changing daily and consistent throughout the day."
+      },
+      "adhanSound": {
+        "title": "Adhan notification sound",
+        "body": "Choose your prayer reminder sound: a short adhan (Hayya 'ala as-Salah, Hayya 'ala al-Falah), a simple chime, or the device default — switchable from Settings at any time."
+      },
+      "smartHome": {
+        "title": "Smart home screen",
+        "body": "Weekly, monthly, and yearly worship appears automatically on the right day: Jumu'ah and Surat al-Kahf on Friday, White Days fasting on Hijri 13-14-15, and Ramadan and Dhul-Hijja acts in their seasons."
       }
     }
   },
