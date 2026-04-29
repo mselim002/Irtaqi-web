@@ -7,7 +7,10 @@
     "about": "About — Irtaqi",
     "download": "Download — Irtaqi",
     "contact": "Contact — Irtaqi",
-    "privacy": "Privacy Policy — Irtaqi"
+    "privacy": "Privacy Policy — Irtaqi",
+    "terms": "Terms of Use — Irtaqi",
+    "support": "Support — Irtaqi",
+    "delete": "Delete Account — Irtaqi"
   },
   "nav": {
     "home": "Home",
@@ -293,6 +296,139 @@
       }
     }
   },
+  "terms": {
+    "title": "Terms of Use",
+    "updated": "Last updated: April 2026",
+    "intro": "By downloading or using Irtaqi you agree to these terms. If you do not agree, please uninstall the app and stop using the service.",
+    "sections": {
+      "service": {
+        "title": "What Irtaqi is",
+        "body": "Irtaqi is a free, volunteer-built Islamic habit tracker. It helps you build and maintain daily acts of worship based on the Qur'an and the Sunnah. It is a personal productivity tool — not a religious authority, not a source of legal rulings (fatwa), and not a substitute for qualified Islamic scholarship."
+      },
+      "account": {
+        "title": "Your account",
+        "body": "You must provide an accurate email address and keep your credentials secure. You are responsible for all activity under your account. You must be at least 13 years old (or the minimum digital age in your country, whichever is higher) to register. One account per person."
+      },
+      "content": {
+        "title": "Your data",
+        "body": "Your worship logs, points, badges, and profile information belong to you. We do not license, sell, or commercially exploit them. You can delete your account and all associated data permanently at any time — see the Delete Account page for instructions."
+      },
+      "use": {
+        "title": "Acceptable use",
+        "body": "You agree not to: reverse-engineer or decompile the app; scrape or harvest data from our servers; impersonate another user or create fake accounts; use the service for any unlawful purpose; or attempt to disrupt the service in any way."
+      },
+      "thirdparty": {
+        "title": "Third-party services",
+        "body": "Irtaqi uses the Aladhan API to retrieve prayer times — your device coordinates are sent to their servers but no personal identifier is included. Crash and error reports are processed by Sentry, with authentication tokens and request bodies stripped before transmission. These services have their own terms and privacy policies."
+      },
+      "free": {
+        "title": "Free service & donations",
+        "body": "Irtaqi is and will remain free for all users. Optional donations may be accepted to cover running costs. Donations are non-refundable and do not grant any additional rights, features, or priority support."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "body": "Irtaqi is provided \"as is\" without warranty of any kind. We do not guarantee uninterrupted availability, complete accuracy of prayer times, or that the service will meet your specific requirements. Prayer times are calculated algorithmically and may differ from your local mosque's schedule — always verify with a local authority for critical obligations."
+      },
+      "termination": {
+        "title": "Termination",
+        "body": "We may suspend or terminate accounts that violate these terms. You may delete your account at any time from within the app. Termination does not affect any obligations that arose before the termination date."
+      },
+      "changes": {
+        "title": "Changes to these terms",
+        "body": "We will update the \"Last updated\" date at the top of this page when these terms change. Continued use of Irtaqi after a change constitutes acceptance of the updated terms."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about these terms? Write to us at legal@irtaqi.life."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "intro": "Answers to the most common questions. If you can't find what you need, write to us directly.",
+    "sections": {
+      "start": { "title": "Getting started" },
+      "notif": { "title": "Notifications" },
+      "account": { "title": "Account" },
+      "groups": { "title": "Groups" },
+      "requirements": {
+        "title": "Requirements",
+        "body": "Irtaqi requires iOS 16 or later on iPhone, or Android 8.0 (API 26) or later. An internet connection is required for registration and syncing; the app works offline after initial setup using a local cache."
+      },
+      "contact": {
+        "title": "Still need help?",
+        "body": "Write to us at support@irtaqi.life and include your registered email address. We aim to respond within 2 business days."
+      }
+    },
+    "faq": {
+      "log": {
+        "q": "How do I log a habit?",
+        "a": "On the Habits tab, tap the ✓ button next to any habit to mark it done for today. Tap again to undo. For habits that involve counting (like Istighfar 100×), a counter will appear automatically. You can also open any habit for details and log it from there."
+      },
+      "bundle": {
+        "q": "Which habits should I choose?",
+        "a": "During onboarding, the Minimum bundle includes only the five daily prayers — a solid starting point. The Balanced bundle adds the confirmed sunnah prayers and daily adhkar. The Comprehensive bundle includes all daily habits. You can always customise manually, or adjust your selection later from Settings."
+      },
+      "offline": {
+        "q": "Does the app work without internet?",
+        "a": "Yes. After your first login, Irtaqi stores a local copy of your habits and logs on your device. You can log worship, view stats, and browse the Qur'an reader offline. Syncing with your account resumes automatically when you reconnect."
+      },
+      "notifMissing": {
+        "q": "My prayer notifications are not showing.",
+        "a": "Open your device Settings → Notifications → Irtaqi and make sure notifications are allowed and not set to silent. On iOS, also check that Focus/Do Not Disturb isn't blocking them. Inside the app, go to Settings → Notifications and make sure prayer reminders are enabled for each prayer."
+      },
+      "notifTime": {
+        "q": "The prayer times seem wrong.",
+        "a": "Go to Settings → Location and update your location. Prayer times are calculated from your device's GPS coordinates using the Umm al-Qura (Makkah) calculation method by default. If your local mosque follows a different method or has sight-based criteria, the times may differ slightly — this is normal."
+      },
+      "password": {
+        "q": "I forgot my password.",
+        "a": "On the login screen, tap Forgot password? and enter your registered email address. You will receive a reset link. If the email doesn't arrive within a few minutes, check your spam folder. If you still can't access your account, write to support@irtaqi.life."
+      },
+      "deleteAccount": {
+        "q": "How do I delete my account?",
+        "a": "Open Settings inside the app → scroll to the bottom → tap Delete account permanently. Deletion removes all your data from our servers immediately and cannot be undone. See the Delete Account page for full details."
+      },
+      "joinGroup": {
+        "q": "How do I join a group?",
+        "a": "Ask the group admin for the invite code, then open the Groups tab → tap Join group → enter the code. You'll be added instantly."
+      },
+      "createGroup": {
+        "q": "How do I create a group?",
+        "a": "Open the Groups tab → tap Create group → choose a name. Your group's invite code is shown on the group detail screen — share it with whoever you'd like to invite."
+      }
+    }
+  },
+  "delete": {
+    "title": "Delete Your Account",
+    "intro": "You can permanently delete your Irtaqi account and all associated data at any time — no forms, no waiting period.",
+    "sections": {
+      "inapp": {
+        "title": "Delete from inside the app",
+        "body": "The fastest way is from within the app:"
+      },
+      "what": {
+        "title": "What gets deleted",
+        "intro": "Deleting your account permanently removes the following from our servers:",
+        "item1": "All habit logs and completion history",
+        "item2": "Your points, level, streaks, and badges",
+        "item3": "Group memberships and any groups you created",
+        "item4": "Your profile information (name, email, avatar, madhhab, location)",
+        "item5": "Any notification preferences and settings stored on the server",
+        "warning": "Deletion is immediate and irreversible. There is no grace period and no way to recover your data after confirming."
+      },
+      "noaccess": {
+        "title": "Can't access the app?",
+        "body": "If you are unable to log in or access the app, email privacy@irtaqi.life from your registered email address with the subject line \"Account deletion request\". We will process your request and confirm deletion within 5 business days."
+      }
+    },
+    "steps": {
+      "one": "Open the app and log in.",
+      "two": "Go to the Settings tab (bottom navigation).",
+      "three": "Scroll to the bottom and tap Delete account permanently.",
+      "four": "Confirm when prompted. Your account and all data will be deleted immediately."
+    }
+  },
   "footer": {
     "tagline": "Rise through your daily worship.",
     "sections": {
@@ -305,8 +441,10 @@
       "download": "Download",
       "about": "About",
       "contact": "Contact",
+      "support": "Support",
       "privacy": "Privacy",
-      "terms": "Terms"
+      "terms": "Terms",
+      "delete": "Delete Account"
     },
     "rights": "© 2026 Irtaqi. All rights reserved.",
     "made": "Made with sincerity for the ummah."
