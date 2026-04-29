@@ -239,8 +239,14 @@ h1, h2, h3, h4, h5, h6 {
 .menu-toggle.open span::before { transform: rotate(45deg); top: 0; }
 .menu-toggle.open span::after { transform: rotate(-45deg); top: 0; }
 
+/* Mobile lang-toggle inside dropdown — hidden on desktop */
+.nav-lang-mobile { display: none; }
+
 @media (max-width: 840px) {
   .menu-toggle { display: block; }
+
+  /* Hide lang-toggle from header bar — it lives in the dropdown instead */
+  .nav-actions .lang-toggle { display: none; }
 
   .nav-links {
     position: absolute;
@@ -251,23 +257,49 @@ h1, h2, h3, h4, h5, h6 {
     gap: 0;
     background: var(--bg-2);
     border-top: 1px solid var(--border);
-    padding: 12px 24px 20px;
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    transition: max-height 0.35s ease;
+    z-index: 40;
   }
 
   .nav-links.open {
     max-height: 500px;
-    padding: 12px 24px 20px;
+    padding: 8px 24px 20px;
   }
 
   .nav-links a {
-    padding: 12px 0;
+    padding: 14px 0;
     border-bottom: 1px solid var(--border);
+    text-align: start;
+    display: block;
+    width: 100%;
   }
 
   .nav-links a:last-child { border-bottom: none; }
+
+  /* Lang toggle row at the bottom of the mobile menu */
+  .nav-lang-mobile {
+    display: block;
+    padding: 14px 0 4px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }
+
+  .lang-toggle-mobile {
+    padding: 8px 18px;
+    border: 1px solid var(--border-gold);
+    border-radius: 999px;
+    color: var(--gold-2);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .lang-toggle-mobile:hover {
+    background: rgba(201, 168, 76, 0.1);
+  }
 }
 
 /* ============================================================================

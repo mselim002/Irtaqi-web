@@ -80,11 +80,10 @@ export async function setLang(lang) {
     /* ignore storage failures (private mode, etc.) */
   }
 
-  // swap the toggle label so it reads as the *other* language
-  const toggle = document.querySelector("[data-lang-toggle]");
-  if (toggle) {
+  // swap all toggle labels so they read as the *other* language
+  document.querySelectorAll("[data-lang-toggle]").forEach((toggle) => {
     toggle.setAttribute("data-target-lang", lang === "ar" ? "en" : "ar");
-  }
+  });
 }
 
 export function getCurrentLang() {
@@ -103,11 +102,10 @@ export async function initI18n() {
   const lang = getCurrentLang();
   await setLang(lang);
 
-  const toggle = document.querySelector("[data-lang-toggle]");
-  if (toggle) {
+  document.querySelectorAll("[data-lang-toggle]").forEach((toggle) => {
     toggle.addEventListener("click", async () => {
       const target = toggle.getAttribute("data-target-lang") || "en";
       await setLang(target);
     });
-  }
+  });
 }

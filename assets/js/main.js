@@ -1,5 +1,27 @@
 import { initI18n } from "./i18n.js";
 
+// Inject a lang-toggle item into the mobile dropdown so users can switch
+// language without it being crammed into the header bar.
+function injectMobileLangToggle() {
+  const navLinks = document.getElementById("nav-links");
+  const headerToggle = document.querySelector("[data-lang-toggle]");
+  if (!navLinks || !headerToggle) return;
+
+  const li = document.createElement("li");
+  li.className = "nav-lang-mobile";
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "lang-toggle lang-toggle-mobile";
+  btn.setAttribute("data-lang-toggle", "");
+  btn.setAttribute("data-target-lang", headerToggle.getAttribute("data-target-lang") || "en");
+  btn.setAttribute("data-i18n", "nav.langToggle");
+  btn.textContent = headerToggle.textContent.trim();
+
+  li.appendChild(btn);
+  navLinks.appendChild(li);
+}
+
 // Mobile nav
 function initNav() {
   const toggle = document.querySelector(".menu-toggle");
@@ -101,6 +123,7 @@ function initForms() {
 // We stash the current success/error keys on the element via data-success/data-error,
 // populated by data-i18n-attr from the translation dict.
 function bootstrap() {
+  injectMobileLangToggle();
   initNav();
   markActiveLink();
   initReveal();
